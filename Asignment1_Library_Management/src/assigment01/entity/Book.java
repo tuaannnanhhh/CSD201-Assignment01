@@ -17,17 +17,6 @@ public class Book {
     private double price;
 
     public Book ( String bcode, String title, int quantity, double price) {
-
-         if (bcode == null || bcode.isEmpty()) {
-            throw new IllegalArgumentException("Bcode must not be empty.");
-        }
-        if (quantity < 0) {
-            throw new IllegalArgumentException("Quantity must be non-negative.");
-        }
-        if (price < 0) {
-            throw new IllegalArgumentException("Price must be non-negative.");
-        }
-        
         this.bcode = bcode;
         this. title = title;
         this.quantity = quantity;
