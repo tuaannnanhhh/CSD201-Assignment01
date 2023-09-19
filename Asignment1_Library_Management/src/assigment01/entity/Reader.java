@@ -18,5 +18,6 @@ public class Reader {
         this.rcode = rcode;
         this.name = name;
         this.byear = byear;
+    {
     
 }
