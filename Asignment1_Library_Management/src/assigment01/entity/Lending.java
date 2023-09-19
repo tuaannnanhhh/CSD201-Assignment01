@@ -10,5 +10,14 @@ package assigment01.entity;
  * @author nghin
  */
 public class Lending {
+    private String rcode;
+    private String name;
+    private int byear;
+
+    public Reader(String rcode, String name, int byear) {
+        this.rcode = rcode;
+        this.name = name;
+        this.byear = byear;
+    }
     
 }
