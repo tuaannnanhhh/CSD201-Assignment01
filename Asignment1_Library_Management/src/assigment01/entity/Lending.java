@@ -14,7 +14,7 @@ public class Lending {
     private String name;
     private int byear;
 
-    public Lended(String rcode, String name, int byear) {
+    public Lending(String rcode, String name, int byear) {
         this.rcode = rcode;
         this.name = name;
         this.byear = byear;
