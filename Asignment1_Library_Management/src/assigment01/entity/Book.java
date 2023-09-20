@@ -16,11 +16,11 @@ public class Book {
     private int lended;
     private double price;
 
-    public Book ( String bcode, String title, int quantity, double price) {
+    public Book ( String bcode, String title, int quantity,int lended, double price) {
         this.bcode = bcode;
         this. title = title;
         this.quantity = quantity;
-        this.lended = 0;
+        this.lended = lended;
         this.price = price; 
     }
 
